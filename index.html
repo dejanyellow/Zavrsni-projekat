@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" href="images/123379.png" />
     <title>Prodavnica Teleskopa</title>
+
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
     <link href="css/owl.carousel.css" rel="stylesheet" />
-    
+    <link href="css/style.css" rel="stylesheet" />
   </head>
+
   <body id="page-top">
     <!-- Navigacija -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -27,7 +29,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          
+          <a class="navbar-brand page-scroll" href="#page-top"><img
+              src="images/skaj.png"
+              alt="Ovo je theme logo"
+              height="60"
+              width="140"
+              /></a>
         </div>
         <!-- prikuplja nav linkove, forme, i ostalo za toggle -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -49,7 +56,39 @@
             </li>
             <li>
               <a class="page-scroll" href="#contact">Kontakt</a>
-            </li>            
+            </li>
+            <li>
+              <div id="div-cart">
+                <ul>
+                  <li class="submenu">
+                    <img src="images/cart.png" id="img-cart" alt="korpa"/>
+                    <div id="shopping-cart">
+                      <table id="cart-content" class="u-full-width">
+                        <thead>
+                          <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody></tbody>
+                      </table>
+                      <a href="#" id="clear-cart" class="button">Clear Cart</a>
+                      <span id="total"></span>
+                      <div>
+                        <a
+                          href="orderDetails.html"
+                          class="button"
+                          id="submitAPurchase">submit a purchase</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -62,7 +101,10 @@
           <div class="owl-slider owl-carousel">
             <div class="item">
               <div class="owl-slider-item">
-                
+                <img
+                  src="images/karusel1.jpg"
+                  class="img-responsive"
+                  alt="portfolio"/>
                 <div class="intro-text">
                   <div class="intro-lead-in">Uz nas dobijate</div>
                   <div class="intro-heading">Bolji pogled na svet</div>
@@ -71,7 +113,10 @@
             </div>
             <div class="item">
               <div class="owl-slider-item">
-                
+                <img
+                  src="images/karusel2.jpg"
+                  class="img-responsive"
+                  alt="portfolio"/>
                 <div class="intro-text">
                   <div class="intro-lead-in">Otklonite sve</div>
                   <div class="intro-heading">Vaše sumnje</div>
@@ -80,7 +125,10 @@
             </div>
             <div class="item">
               <div class="owl-slider-item">
-                
+                <img
+                  src="images/karusel3.jpg"
+                  class="img-responsive"
+                  alt="portfolio"/>
                 <div class="intro-text">
                   <div class="intro-lead-in">Zavirite u snove</div>
                   <div class="intro-heading">Vašeg detinjstva</div>
@@ -91,6 +139,7 @@
         </div>
       </div>
     </header>
+    
     <section id="partners">
       <div class="container">
         <div class="row">
@@ -106,44 +155,55 @@
             <div class="owl-partners owl-carousel">
               <div class="item">
                 <div class="partner-logo">
-                  
-                </div>
-              </div>
-              <div class="item">
-                
-                </div>
-              </div>
-              <div class="item">
-                
-                </div>
-              </div>
-              <div class="item">
-                
+                  <img
+                    src="images/partneri/Celestron-logo-square_4272fbe9-86c4-4a03-9ce0-69251c7ab422_600x600.jpg"
+                    alt="partners"/>
                 </div>
               </div>
               <div class="item">
                 <div class="partner-logo">
-                  
+                  <img src="images/partneri/Vortex-Optics.png" alt="partners" />
                 </div>
               </div>
               <div class="item">
                 <div class="partner-logo">
-                  
+                  <img src="images/partneri/astrodon.png" alt="partners" />
                 </div>
               </div>
               <div class="item">
                 <div class="partner-logo">
-                  
+                  <img src="images/partneri/minox.jpg" alt="partners" />
                 </div>
               </div>
               <div class="item">
                 <div class="partner-logo">
-                  
+                  <img
+                    src="images/partneri/opplanet-galileo-brand-logo-bw.jpg"
+                    alt="partners"/>
                 </div>
               </div>
               <div class="item">
                 <div class="partner-logo">
-                  
+                  <img
+                    src="images/partneri/opplanet-meade-brand-small.jpg"
+                    alt="partners"/>
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner-logo">
+                  <img src="images/partneri/orion.jpg" alt="partners"/>
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner-logo">
+                  <img src="images/partneri/tasco.jpg" alt="partners"/>
+                </div>
+              </div>
+              <div class="item">
+                <div class="partner-logo">
+                  <img
+                    src="images/partneri/tb_56_bresser-optics.jpg"
+                    alt="partners"/>
                 </div>
               </div>
             </div>
@@ -262,7 +322,7 @@
       src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>    
+    <script src="js/cbpAnimatedHeader.js"></script>
     <script src="js/jquery.appear.js"></script>
     <script src="js/SmoothScroll.min.js"></script>
     <script src="js/theme-scripts.js"></script>

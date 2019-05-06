@@ -1,4 +1,4 @@
-
+import _ from 'lodash';
 
 import telescope from './createCatalog.js';
 import main from './main.js';

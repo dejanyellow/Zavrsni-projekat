@@ -401,6 +401,62 @@ header {
 	}
 }
 
+/*----------------
+4. Katalog
+-----------*/
+#catalog {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 1.5em auto;
+    margin-bottom: 3.5em;
+    justify-content: space-around;
+}
+.telescope {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    border: 2px solid #e1e1e1;
+    margin: 1em;
+    align-items: flex-end;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    
+}
+.telescope>div>h2{
+    margin: 5px;
+}
+.telescope>div>input {
+    width: 100px;
+    text-align: end;
+    margin: 5px;
+    border-radius: 4px;
+}
+.telescope>button{
+    color: #FFF;
+    background-color: rgb(30, 46, 99);
+    border-color:rgb(30, 46, 99);
+    margin: 20px auto;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    width: 60%;
+}
+.telescope>button:active {
+    background-color: #112755;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+
+/*--------------------
+5. Sections
+--------------------*/
+
 .section-title h2 {
 	font-size: 50px;
 	color: #B3B3BB;
@@ -477,6 +533,10 @@ header {
 }
 
 
+/*--------------------
+4.4. Dark Short section (counters, quote, etc)
+--------------------*/
+
 .light-bg {
 	background-color: #f8f8f8;
 }
@@ -493,8 +553,22 @@ header {
 	padding-bottom: 70px;
 }
 
+.counter-item h2 {
+	color: #fff;
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.counter-item h6 {
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 10px 0 0 0;
+	text-transform: uppercase;
+}
+
 /*--------------------
-4.5. Partneri slajder
+4.5. Partners Slider
 --------------------*/
 
 .owl-portfolio .owl-controls {
@@ -635,6 +709,44 @@ footer p a span {
 	font-weight: 700;
 }
 
+/*--------------------
+6. Modal
+--------------------*/
+
+.modal-content {
+	border-radius: 0;	
+}
+.modal-header .close {
+	font-size: 30px;	
+}
+.modal-title {	
+	text-transform: uppercase;
+	font-size: 23px;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+.modal-body p {
+	margin: 30px 20px;
+	color: #2D2D2D;		
+}
+
+.modal-works {
+font-size: 11px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #fff;
+	margin: 25px 20px;
+}
+
+.modal-works span {
+	background-color: #FED136;
+	margin-right: 15px;
+	padding: 5px 10px;
+}
 
 /*--------------------
 7. Components
@@ -720,3 +832,24 @@ color: #fff;
 	font-size: 28px;
 }
 
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+#back-top {
+	position: fixed;
+	bottom: 10px;
+	right: 30px;
+}
+#back-top a {
+	width: 40px;
+	height: 40px;
+}
+#back-top i {
+	margin-top: 7px;
+	font-size: 20px;
+}
+#div-cart, #order-title, #logo{
+    margin: 0 auto;
+    align-content: flex-end;
+}
+}

@@ -1,7 +1,7 @@
 ## Prodavnica Teleskopa
-Ovaj projekat je deo zavrsnog ispita, sastoji se od dve strane sa temom: Prodavnica Teleskopa.
-Korisnik moze putem navigacije kroz galeriju da se informise o kvalitetu proizvoda, na pocetnoj
-strani moze da izabere u katalogu zeljeni proizvod i da ga naruci.
+Ovaj projekat je deo zavrsnog ispita, sastoji se od tri strane sa temom: Prodavnica Teleskopa.
+Korisnik moze putem navigacije kroz stranicu Galerija da se informise o kvalitetu proizvoda, na pocetnoj
+strani moze da izabere u katalogu zeljeni proizvod i da ga naruci preko stranice Order details.
 
 ## Used technology
 - HTML
@@ -13,11 +13,11 @@ strani moze da izabere u katalogu zeljeni proizvod i da ga naruci.
 
 ## Initializing the project 
 
-The main page is `index.html`
+Glavna stranica za navigaciju je `index.html`
 
 ## Project structure
 
-Project structure:
+Struktura projekta:
 
 ```
 .

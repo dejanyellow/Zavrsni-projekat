@@ -103,7 +103,7 @@
         let toPay = document.getElementById('toPay');
         if (check.checked) {
             toPay.style.display = 'block';
-            toPay.textContent = `Total to pay: ${total + 300} EUR`;
+            toPay.textContent = `Total to pay: ${total + 3} EUR`;
         } else {
             toPay.style.display = 'none';
         }

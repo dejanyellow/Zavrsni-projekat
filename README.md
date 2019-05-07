@@ -24,8 +24,6 @@ Struktura projekta:
 ├── .vscode
 │   └── settings.json
 ├── css
-│   └── animate.css
-│   └── bootstrap.css
 │   └── bootstrap.min.css
 │   └── orderDetails.css
 │   └── owl.carousel.css
@@ -38,7 +36,7 @@ Struktura projekta:
 ├── fonts
 ├── images
 ├── js
-│   └── bootsratp.min.js
+│   └── bootstrap.min.js
 │   └── cbpAnimatedHeader.js
 │   └── createCatalog.js
 │   └── index.js

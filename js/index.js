@@ -15,6 +15,6 @@ telescope.addToCatalog('Celestron NexStar 130 SLT Computerized',420,20,'images/6
 telescope.addToCatalog('Bresser Telescope AC 80/900 Nova ',220,20,'images/7.jpg');
 telescope.addToCatalog('Orion N 114/450 EQ-1 Starblast II AstroTrack',200,20,'images/8.jpg');
 telescope.addToCatalog('Galileo G-2HT Refractor Hammertone ',100,20,'images/9.jpg');
-telescope.addToCatalog('saxon 705AZ3 Pioneer Refractor Telescope',320,20,'images/10.jpg');
-telescope.addToCatalog('Vortex Razor® HD 800x42 Diamondback white',350,20,'images/11.jpg');
-telescope.addToCatalog('Astrodon Elenco 288 T with Aluminum Tripod ',190,20,'images/12.jpg');
+telescope.addToCatalog('saxon 705AZ3 Pioneer Refractor',320,20,'images/10.jpg');
+telescope.addToCatalog('Vortex Razor® HD 800x42 Diamondback',350,20,'images/11.jpg');
+telescope.addToCatalog('Astrodon Elenco 288 T Aluminum Tripod',190,20,'images/12.jpg');

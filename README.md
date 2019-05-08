@@ -23,6 +23,9 @@ Projekat je prosao html validaciju i proveru gresaka u konzoli.
 
 Struktura projekta:
 
+```
+
+.
 
 ├── css
 │   └── bootstrap.min.css

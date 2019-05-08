@@ -15,6 +15,10 @@ strani moze da izabere u katalogu zeljeni proizvod i da ga naruci preko stranice
 
 Glavna stranica za navigaciju je `index.html`.
 
+## Validacija 
+
+Projekat je prosao html validaciju i proveru gresaka u konzoli.
+
 ## Project structure
 
 Struktura projekta:
@@ -66,6 +70,3 @@ Struktura projekta:
 ├── webpack.config.js
 
 ```
-## Validacija 
-
-Projekat je prosao html validaciju i proveru gresaka u konzoli.

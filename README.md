@@ -13,16 +13,13 @@ strani moze da izabere u katalogu zeljeni proizvod i da ga naruci preko stranice
 
 ## Initializing the project 
 
-Glavna stranica za navigaciju je `index.html`
+Glavna stranica za navigaciju je `index.html`.
 
 ## Project structure
 
 Struktura projekta:
 
-```
-.
-├── .vscode
-│   └── settings.json
+
 ├── css
 │   └── bootstrap.min.css
 │   └── orderDetails.css
@@ -69,3 +66,6 @@ Struktura projekta:
 ├── webpack.config.js
 
 ```
+## Validacija 
+
+Projekat je prosao html validaciju i proveru gresaka u konzoli.
